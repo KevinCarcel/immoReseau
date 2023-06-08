@@ -1,1 +1,64 @@
-/*# sourceMappingURL=main.css.map */
+.footer1 {
+  width: 100%;
+  height: 200px;
+  background-color: #3e3e3e;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.footer1-gauche {
+  align-self: center;
+}
+
+.titre-footer1 {
+  font-size: 2.75em;
+  font-weight: bolder;
+}
+
+.footer1-droite {
+  align-self: center;
+  flex-direction: column;
+  display: flex;
+  gap: 15px;
+}
+
+.link-bouton1 {
+  background-color: #3e3e3e;
+  width: 280px;
+  border: white solid 2px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: bolder;
+  transition: 0.3s;
+  text-align: center;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  text-decoration: none;
+}
+
+.link-bouton1:hover {
+  background-color: white;
+  color: rgb(9, 172, 9);
+}
+
+.link-bouton2 {
+  background-color: white;
+  width: 280px;
+  border: #3e3e3e solid 2px;
+  border-radius: 5px;
+  color: #3e3e3e;
+  font-size: 1em;
+  font-weight: bolder;
+  transition: 0.3s;
+  text-align: center;
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+  text-decoration: none;
+}
+
+.link-bouton2:hover {
+  border: white;
+  color: rgb(9, 172, 9);
+}/*# sourceMappingURL=main.css.map */
