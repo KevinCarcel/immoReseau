@@ -5,46 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" href="images/favicon/favicon.png" />
-
+    <link rel="stylesheet" href="sass/css_icons/flaticons.css" />
+    <link rel="stylesheet" href="sass/css_icons/themify-icons.css" />
     <link rel="stylesheet" href="sass/main.css" />
-    <link rel="icon" type="img/png" href="images/favicon/favicon.png" />
 
     <title>Morgan réseau</title>
   </head>
   <body>
-    <header>
+    <!-- Debut header -->
+    <!-- header 1 -->
+    <header class="header1">
       <div class="topheader">
-         <nav>
-             <ul class="top-mon-compte">
-             <li class="mon-compte">Mon compte</li>
-             </ul>
-         </nav>
-     </div>
-     </header>
+        <a href="#" class="moncompte">
+          <span class="ti-user" id="icon-user"></span>Mon compte
+        </a>
+        <a href="#" class="mesfavoris">
+          <span class="ti-star" id="icon-favoris"></span>Mes favoris
+        </a>
+      </div>
+    </header>
 
-     <header>
-         <div id="headersecond"></div>
-         <nav>
-             <img src="image/immoreseau.svg">
-             <ul>
-             <li>ACHETER</li>
-             <li>LOUER</li>
-             <li>ESTIMER</li>
-             <li>VENDRE</li>
-             <li>NOS CONSEILLERS</li>
-             <li>A PROPOS</li>
-             <LI>BLOG</LI>
-             <li><div class="nousrejoindre">Nous rejoindre</li></div>
-             <li><div class="contacteznous">Contactez-nous</li></div> 
-         </ul>
-         </nav>
-        </header>
+    <!-- header 2 -->
+    <header class="header2">
+      <nav>
+        <img src="image/immoreseau.svg" class="logo-header1" />
+        <ul class="liste-header">
+          <li>ACHETER</li>
+          <li>LOUER</li>
+          <li>ESTIMER</li>
+          <li>VENDRE</li>
+          <li>NOS CONSEILLERS</li>
+          <li>A PROPOS</li>
+          <li>BLOG</li>
+          <li class="header2-droite">
+            <a href="#" class="nousrejoindre">Nous rejoindre</a>
+            <a href="#" class="Contacteznous">Contactez-nous</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!-- début de footer -->
     <footer>
-    <!-- partie 1 footer -->
+      <!-- partie 1 footer -->
       <div class="footer1">
         <div class="footer1-gauche">
           <h2 class="titre-footer1">TROUVEZ VOTRE BIEN</h2>

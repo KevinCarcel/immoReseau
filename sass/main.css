@@ -67,8 +67,31 @@
   color: rgb(7, 7, 7);
   display: flex;
   flex-direction: row;
-  background-color: grey;
+  background-color: rgba(128, 128, 128, 0.121);
   width: 100%;
+  justify-content: flex-end;
+}
+
+#icon-user {
+  font-size: 1em;
+  color: green;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.moncompte {
+  text-decoration: none;
+}
+
+#icon-favoris {
+  font-size: 1em;
+  font-weight: bold;
+  color: green;
+  margin-right: 10px;
+}
+
+.mesfavoris {
+  text-decoration: none;
 }
 
 .headersecond {
@@ -84,11 +107,11 @@ nav {
   padding: 0 20px;
 }
 
-img {
-  width: 9%;
+.logo-header1 {
+  width: 150px;
 }
 
-ul {
+.liste-header {
   display: flex;
   padding-top: 20px;
   padding: 0 60px;
@@ -100,26 +123,6 @@ li {
   font-weight: bold;
 }
 
-.nousrejoindre {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  color: white;
-  background-color: black;
-}
-
-.contacteznous {
-  width: 100%;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-  color: white;
-  background-color: black;
-  -moz-text-align-last: justify;
-       text-align-last: justify;
+body {
+  margin: 0;
 }/*# sourceMappingURL=main.css.map */
