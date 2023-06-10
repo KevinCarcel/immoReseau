@@ -57,3 +57,41 @@
   border: white;
   color: rgb(9, 172, 9);
 }
+
+// footer 2
+.footer2 {
+  width: 100%;
+  height: 500px;
+  background-color: #9bc31c;
+}
+.logo1-footer2 {
+  width: 400px;
+}
+.footer2-haut {
+  display: flex;
+  padding-top: 50px;
+  height: 85%;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 2%;
+}
+.footer2-gauche {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+.text1-footer2 {
+  text-align: justify;
+  color: white;
+  font-size: 1.2em;
+  margin-left: 5%;
+}
+.footer2-mid {
+  color: white;
+  width: 20%;
+}
+.footer2-droite {
+  color: white;
+  width: 35%;
+}
