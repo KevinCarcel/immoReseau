@@ -78,8 +78,8 @@
   padding-top: 50px;
   height: 85%;
   padding-bottom: 30px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
   gap: 2%;
 }
 
@@ -92,7 +92,7 @@
 .text1-footer2 {
   text-align: justify;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.15em;
   margin-left: 5%;
 }
 
