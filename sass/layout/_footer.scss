@@ -27,13 +27,13 @@
   border: white solid 2px;
   border-radius: 5px;
   color: white;
-  font-size: 1em;
-  font-weight: bolder;
+  font-size: 1.3em;
   transition: 0.3s;
   text-align: center;
   padding-top: 12.5px;
   padding-bottom: 12.5px;
   text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .link-bouton1:hover {
   background-color: white;
@@ -45,13 +45,13 @@
   border: #3e3e3e solid 2px;
   border-radius: 5px;
   color: #3e3e3e;
-  font-size: 1em;
-  font-weight: bolder;
+  font-size: 1.3em;
   transition: 0.3s;
   text-align: center;
   padding-top: 12.5px;
   padding-bottom: 12.5px;
   text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .link-bouton2:hover {
   border: white;
@@ -74,10 +74,10 @@
   padding-bottom: 30px;
   padding-left: 70px;
   padding-right: 70px;
-  gap: 2%;
+  gap: 20px;
 }
 .footer2-gauche {
-  width: 30%;
+  width: 450px;
   display: flex;
   flex-direction: column;
 }
@@ -85,14 +85,79 @@
   text-align: justify;
   color: white;
   font-size: 1.15em;
-  margin-left: 5%;
+  margin-left: 20px;
+  margin-right: 10px;
   line-height: 1.3em;
 }
 .footer2-mid {
   color: white;
-  width: 20%;
+  width: 300px;
+  margin-top: 10px;
 }
 .footer2-droite {
   color: white;
-  width: 35%;
+  width: 550px;
+  margin-top: 10px;
+}
+.titre1-footer2 {
+  font-size: 1.1em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.cont {
+  border-bottom: white 1px solid;
+  padding-bottom: 15px;
+}
+.immo {
+  border-bottom: white 1px solid;
+  padding-bottom: 15px;
+  padding-left: 12px;
+}
+.adresse-footer2 {
+  font-size: 1.15em;
+  line-height: 1.3em;
+}
+.mail-footer2 {
+  font-size: 1.15em;
+  color: white;
+}
+.espacepro-footer2 {
+  text-decoration: none;
+  margin-top: 50px;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  color: #8fb319;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: fit-content;
+}
+.footer2-mid-coor {
+  display: flex;
+  flex-direction: column;
+}
+#icon-footer2 {
+  color: #8fb319;
+  margin-right: 4px;
+  font-size: 0.85em;
+}
+.ref-footer2 {
+  text-decoration: none;
+  color: white;
+  font-size: 1.15em;
+}
+.liste-footer2-gauche {
+  list-style: none;
+  margin-left: -30px;
+  line-height: 1.5em;
+}
+.liste-footer2-droite {
+  list-style: none;
+  line-height: 1.5em;
+}
+.ensemble-liste-footer2 {
+  display: flex;
+  gap: 80px;
+  margin-top: -15px;
 }
