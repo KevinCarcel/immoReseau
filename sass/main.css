@@ -259,4 +259,19 @@ body {
   height: 115px;
   text-align: center;
   border-bottom: 7px solid rgb(2, 201, 2);
+}
+
+#image {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+}
+
+#ensavoirplus {
+  color: white;
+  background-color: greenyellow;
 }/*# sourceMappingURL=main.css.map */
