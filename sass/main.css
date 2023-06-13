@@ -75,8 +75,8 @@
 
 .footer2-haut {
   display: flex;
-  padding-top: 50px;
-  height: 85%;
+  padding-top: 40px;
+  height: 350px;
   padding-bottom: 30px;
   padding-left: 70px;
   padding-right: 70px;
@@ -183,6 +183,141 @@
   display: flex;
   gap: 80px;
   margin-top: -15px;
+}
+
+.notation {
+  display: flex;
+  border: double white 1.5px;
+  color: #3e3e3e;
+  width: 400px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.gauche-notation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 160px;
+  line-height: 0px;
+  border-right: white 1.5px double;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.note {
+  font-size: 2em;
+  margin-top: 15px;
+}
+
+.etoile-footer2 {
+  margin-top: -7px;
+}
+
+.etoile-pleine {
+  width: 23px;
+}
+
+.etoile-moit {
+  width: 20px;
+}
+
+.nb-davis {
+  font-size: 0.7em;
+  margin-top: 18px;
+}
+
+.droite-notation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  width: 240px;
+  justify-content: center;
+}
+
+.lire-avis {
+  text-decoration: none;
+  color: white;
+  font-size: 0.7em;
+  background-color: #e60063;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  width: 130px;
+  border-radius: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-top: 20px;
+}
+
+.garantidvisor {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+}
+
+.garanti {
+  font-size: 0.9em;
+  color: #3e3e3e;
+  margin-top: 20px;
+}
+
+.immodvisor {
+  height: 20px;
+  margin-top: 18px;
+}
+
+.footer2-bas {
+  border-top: white solid 1px;
+  margin-left: 85px;
+  margin-right: 100px;
+  color: white;
+  font-size: 0.9em;
+  display: flex;
+  justify-content: center;
+}
+
+.liste-footer2-bas {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.link-elem3 {
+  text-decoration: none;
+  color: white;
+}
+
+.elem3-footer2 {
+  border-right: white 1.5px solid;
+  padding-right: 20px;
+  height: 14px;
+}
+
+.fblk {
+  right: 0;
+  margin-right: 100px;
+  position: absolute;
+  margin-top: -30px;
+}
+
+.link-fblk {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9em;
+}
+
+.footer3 {
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: #3e3e3e;
+  font-size: 0.9em;
 }
 
 .topheader {
