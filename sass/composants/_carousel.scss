@@ -5,13 +5,13 @@ main {
 .carousel-bg {
   padding-bottom: 1%;
   margin-bottom: 3%;
-  padding-top: 5%;
+  padding-top: -50px;
 }
 
 .containerSlider {
   height: 100%;
   margin: auto;
-  width: 70%;
+  width: 100%;
   // margin-left: 20%;
 }
 .contenuContainer {
@@ -31,10 +31,17 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   color: rgb(250, 250, 250);
-  width: 35%;
-  margin-left: 18%;
+  margin-left: 15%;
   gap: 20px;
   letter-spacing: 3px;
+}
+.reseau-carou{
+  font-size: 4em;
+  font-weight: 900;
+}
+.conseil-carou{
+  font-size: 4em;
+  font-weight: lighter;
 }
 #slider {
   position: relative;
@@ -46,7 +53,7 @@ main {
 #slide {
   width: 100%;
   height: auto;
-  border-radius: 15px;
+  // border-radius: 15px;
   z-index: -1;
 }
 
