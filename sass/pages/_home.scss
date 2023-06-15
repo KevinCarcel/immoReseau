@@ -11,12 +11,21 @@ body {
   border-radius: 6px;
   height: 115px;
   text-align: center;
-  border-bottom:7px solid rgb(2, 201, 2); 
+  border-bottom:7px solid  #8fb319;
+}
+
+#description{
+text-align: center;
+background-color: #8fb319;
+color: white;
+  
+
+
 }
 
 #image{
 
-  align-items: center;
+align-items: center;
 display: flex;
 height: 100%;
 justify-content: center;
