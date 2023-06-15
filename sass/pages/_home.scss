@@ -31,3 +31,52 @@ text-align: center;
 background-color: greenyellow;
 
 }
+// Images Défilantes
+#img1{
+  width: 370px;
+  height: 252px;
+}
+#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+  width: 370px;
+  height: 252px;
+}
+
+.image-slider{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.slider-container{
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 50px;
+  margin-left: 150px;
+}
+.slider-container .slide-annonce{
+  width: calc(100%/3);
+  height: auto;
+  object-fit: cover;
+}
+.navigation{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.navigation div{
+  background-color: rgba(0, 0, 0, 0.499);
+  color: #fff;
+  font-size: 24px;
+  padding: 8px;
+  cursor: pointer;
+}
+.navigation div.disabled{
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.prev,
+.next{
+  flex: 0 0 auto;
+}
