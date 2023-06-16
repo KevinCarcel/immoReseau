@@ -555,4 +555,49 @@ body {
 .prev,
 .next {
   flex: 0 0 auto;
+}
+
+.bloc-txt {
+  display: flex;
+  background-color: white;
+  border-bottom: black 1px solid;
+  border-left: black 1px solid;
+  border-right: black 1px solid;
+  text-align: center;
+  justify-content: center;
+  color: black;
+  margin-top: -4px;
+  font-size: 1.5em;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px rgb(191, 191, 191);
+}
+
+.bloc-txt:hover {
+  background-color: rgba(143, 179, 25, 0.4196078431);
+  transition: 0.3s;
+}
+.bloc-txt:hover .green-CP {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.link-annonce:hover {
+  transform: scale(1.02);
+  transition: 0.3s;
+}
+.link-annonce:hover .bloc-txt {
+  background-color: rgba(143, 179, 25, 0.4196078431);
+  transition: 0.3s;
+}
+.link-annonce:hover .green-CP {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.green-CP {
+  color: #8fb319;
+}
+
+.link-annonce {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
