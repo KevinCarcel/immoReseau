@@ -11,17 +11,30 @@ body {
   border-radius: 6px;
   height: 115px;
   text-align: center;
+  background-color: rgb(249, 249, 249);
   border-bottom:7px solid  #8fb319;
+  box-shadow: 2px 2px 2px 2px rgb(201, 201, 201);
 }
-
+.btn-general{
+  background-color: #8fb319;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.btn-general:hover{
+  color: black;
+}
+// description
 #description{
 text-align: center;
 background-color: #8fb319;
 color: white;
-  
-
-
 }
+
 
 #image{
 
@@ -54,6 +67,7 @@ background-color: greenyellow;
   width: 100%;
   overflow: hidden;
   position: relative;
+  margin-bottom: 150px;
 }
 .slider-container{
   display: flex;
@@ -128,4 +142,45 @@ background-color: greenyellow;
 }
 .link-annonce{
   text-decoration: none;
+}
+// Titre entête
+.titre-entete{
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.75em; 
+}
+.green-entete{
+  color: #8fb319;
+}
+// partie CONSEILS IMMO
+.conseil-immo{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.full-box{
+  display: flex;
+  width: 100%;
+}
+hr{
+  margin-left: 47%;
+  margin-right: 47%;
+}
+.link-conseil{
+  text-decoration: none;
+  color: black;
+}
+.img-conseil{
+  width:400px;
+  height:300px;
+}
+.article-conseil{
+  background-color: white;
+  border: #3e3e3e solid 2px;
+  border-radius: 5px;
+  color: #3e3e3e;
+  font-size: 1.3em;
+  padding: 12.5px 40px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }

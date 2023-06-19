@@ -417,57 +417,115 @@ main {
   background-color: rgba(128, 128, 128, 0.121);
   width: 100%;
   justify-content: flex-end;
+  height: 40px;
+}
+
+.logo-header1 {
+  align-items: center;
+  display: flex;
 }
 
 #icon-user {
   font-size: 1em;
-  color: green;
+  color: #8fb319;
   margin-right: 10px;
   font-weight: bold;
 }
 
 .moncompte {
   text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  padding-top: 6px;
+  font-size: 1.2em;
 }
 
 #icon-favoris {
   font-size: 1em;
   font-weight: bold;
-  color: green;
+  color: #8fb319;
   margin-right: 10px;
 }
 
 .mesfavoris {
   text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  padding-top: 6px;
+  font-size: 1.2em;
 }
 
 .header2 {
   width: 100%;
   height: 120px;
+  display: flex;
 }
 
 nav {
   background-color: white;
   display: flex;
   text-decoration: none;
-  display: flex;
-  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo-header1 {
-  width: 150px;
+  width: 180px;
+  left: 0;
 }
 
 .liste-header {
   display: flex;
-  padding-top: 20px;
-  padding: 0 60px;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .li-header2 {
   list-style: none;
   padding: 0 20px;
   font-weight: bold;
+}
+
+.link-header2 {
+  text-decoration: none;
+  color: black;
+}
+
+.link-header2:hover {
+  color: #8fb319;
+  transition: 0.1s;
+}
+
+.header2-droite {
+  list-style: none;
+  position: absolute;
+  right: 45px;
+}
+
+.nousrejoindre {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 30px;
+  padding: 10px 7px;
+  border-radius: 5px;
+}
+
+.nousrejoindre:hover, .contacteznous:hover {
+  background-color: #8fb319;
+  transition: 0.2s;
+}
+
+.contacteznous {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 7px;
+  border-radius: 5px;
 }
 
 body {
@@ -483,7 +541,24 @@ body {
   border-radius: 6px;
   height: 115px;
   text-align: center;
+  background-color: rgb(249, 249, 249);
   border-bottom: 7px solid #8fb319;
+  box-shadow: 2px 2px 2px 2px rgb(201, 201, 201);
+}
+
+.btn-general {
+  background-color: #8fb319;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1em;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+.btn-general:hover {
+  color: black;
 }
 
 #description {
@@ -521,6 +596,7 @@ body {
   width: 100%;
   overflow: hidden;
   position: relative;
+  margin-bottom: 150px;
 }
 
 .slider-container {
@@ -607,4 +683,51 @@ body {
 
 .link-annonce {
   text-decoration: none;
+}
+
+.titre-entete {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.75em;
+}
+
+.green-entete {
+  color: #8fb319;
+}
+
+.conseil-immo {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.full-box {
+  display: flex;
+  width: 100%;
+}
+
+hr {
+  margin-left: 47%;
+  margin-right: 47%;
+}
+
+.link-conseil {
+  text-decoration: none;
+  color: black;
+}
+
+.img-conseil {
+  width: 400px;
+  height: 300px;
+}
+
+.article-conseil {
+  background-color: white;
+  border: #3e3e3e solid 2px;
+  border-radius: 5px;
+  color: #3e3e3e;
+  font-size: 1.3em;
+  padding: 12.5px 40px;
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }/*# sourceMappingURL=main.css.map */

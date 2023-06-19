@@ -6,45 +6,60 @@
   background-color: rgba(128, 128, 128, 0.121);
   width: 100%;
   justify-content: flex-end;
+  height: 40px;
+}
+.logo-header1{
+  align-items: center;
+  display: flex;
 }
 #icon-user {
   font-size: 1em;
-  color: green;
+  color: #8fb319;;
   margin-right: 10px;
   font-weight: bold;
 }
 .moncompte {
   text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  padding-top: 6px;
+  font-size: 1.2em;
 }
 #icon-favoris {
   font-size: 1em;
   font-weight: bold;
-  color: green;
+  color: #8fb319;;
   margin-right: 10px;
 }
 .mesfavoris {
   text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  padding-top: 6px;
+  font-size: 1.2em;
 }
 // header 2
 .header2 {
   width: 100%;
   height: 120px;
+  display: flex;
 }
 nav {
   background-color: white;
   display: flex;
   text-decoration: none;
-  display: flex;
-  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
 }
 .logo-header1 {
-  width: 150px;
+  width: 180px;
+  left: 0;
 }
 
 .liste-header {
   display: flex;
-  padding-top: 20px;
-  padding: 0 60px;
+  align-items: center;
+  margin-left: 10px;
 }
 
 .li-header2 {
@@ -52,24 +67,39 @@ nav {
   padding: 0 20px;
   font-weight: bold;
 }
-// .nousrejoindre {
-//   width: 100%;
-//   display: flex;
-//   flex-flow: row wrap;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 40px;
-//   color: white;
-//   background-color: black;
-// }
-// .contacteznous {
-//   width: 100%;
-//   display: flex;
-//   flex-flow: row wrap;
-//   align-items: center;
-//   justify-content: center;
-//   gap: 40px;
-//   color: white;
-//   background-color: black;
-//   text-align-last: justify;
-// }
+.link-header2{
+  text-decoration: none;
+  color: black;
+}
+.link-header2:hover{
+  color: #8fb319;
+  transition: 0.1s;
+}
+.header2-droite {
+  list-style: none;
+  position: absolute;
+  right: 45px;
+}
+.nousrejoindre {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-right: 30px;
+  padding: 10px 7px;
+  border-radius: 5px;
+}
+.nousrejoindre:hover , .contacteznous:hover{
+  background-color: #8fb319;
+  transition: 0.2s;
+}
+.contacteznous {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 10px 7px;
+  border-radius: 5px;
+}
