@@ -534,7 +534,7 @@ body {
 
 #formulaire {
   background-color: white;
-  width: 40%;
+  width: 900px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -723,6 +723,8 @@ body {
 .full-box {
   display: flex;
   width: 100%;
+  gap: 30px;
+  justify-content: center;
 }
 
 hr {
@@ -736,7 +738,7 @@ hr {
 }
 
 .img-conseil {
-  width: 400px;
+  width: 100%;
   height: 300px;
 }
 
@@ -749,4 +751,57 @@ hr {
   padding: 12.5px 40px;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.article-conseil:hover {
+  background-color: #3e3e3e;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.box-conseil {
+  width: 27%;
+  margin-bottom: 50px;
+  height: 650px;
+}
+
+.txt-conseil {
+  line-height: 1.5em;
+  font-size: 1.25em;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.ss-titre {
+  font-size: 1.5em;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#box1, #box2, #box3 {
+  background-color: white;
+  box-shadow: 1px 3px 3px 1px rgba(25, 25, 25, 0.222);
+}
+
+.svr-conseil {
+  background-color: #8fb319;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.25em;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 100px;
+}
+
+#box1:hover, #box2:hover, #box3:hover {
+  box-shadow: 1px 3px 3px 1px rgba(235, 235, 235, 0.663);
+}
+#box1:hover .svr-conseil, #box2:hover .svr-conseil, #box3:hover .svr-conseil {
+  color: #3e3e3e;
 }/*# sourceMappingURL=main.css.map */
