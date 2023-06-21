@@ -1,0 +1,120 @@
+.bloc-txt-art{
+  margin-left: 30%;
+  margin-right: 15%;
+  margin-top: 50px;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  text-align: justify;
+  color: #3e3e3e;
+}
+.top-article{
+  background: linear-gradient(to right,#8fb319,#3e3e3e);
+  animation: gradientAnimation 5s linear infinite;
+  background-size: 200% 100%;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+@keyframes gradientAnimation{
+  0%{
+    background-position: 0% 50%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
+.titre-article{
+  align-self: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 3.5em;
+  margin-left: 30%;
+  margin-right: 25%;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.612);
+}
+.txt-part1{
+  margin-bottom: 40px;
+}
+.ss-titre-article{
+  color: #8fb319;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.75em;
+}
+.elem1-article{
+  margin-bottom: 10px;
+}
+.ss-elem{
+  color: #8fb319;
+  font-weight: bolder;
+}
+#loin{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+// les articles du bas
+
+.conseil-immobis{
+  margin-top: 30px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.full-boxbis{
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+}
+.link-conseilbis{
+  text-decoration: none;
+  color: black;
+}
+.img-conseil{
+  width:100%;
+  height:300px;
+}
+.box-conseilbis{
+  width: 50%;
+  margin-bottom: 50px;
+  height: 750px;
+}
+.txt-conseilbis{
+  line-height: 1.5em;
+  font-size: 1.25em;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ss-titre{
+  font-size: 1.5em;
+  text-align: left;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#box1bis,#box2bis,#box3bis{
+  background-color: white;
+  box-shadow: 1px 3px 3px 1px rgba(25, 25, 25, 0.222);
+}
+.svr-conseilbis{
+  background-color: #8fb319;
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.25em;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 100px;
+}
+#box1bis:hover,#box2bis:hover,#box3bis:hover{
+  box-shadow: 1px 3px 3px 1px rgba(235, 235, 235, 0.663);
+  .svr-conseilbis{
+    color: #3e3e3e;
+  }
+}
+#bis2{
+  margin-top: 45px;
+}
