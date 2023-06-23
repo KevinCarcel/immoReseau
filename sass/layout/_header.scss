@@ -109,46 +109,44 @@ nav {
   position: relative;
 }
 
-.menu-icon {
+.menu-toggle {
   display: block;
   cursor: pointer;
   font-size: 24px;
-  color: #ffffff;
-  position: relative;
-  top: -40px;
-  left: 0px;
-  background-color: #000;
+  color: #3e3e3e;
+  background-color: white;
+  border: #3e3e3e 1px solid;
+  padding: 4px 10px;
+  right: 5px;
+  top: -75px;
+  position: absolute;
 }
-.menu-icon:hover{
-  color: rgb(0, 0, 255);
+.menu-toggle:hover{
+  color: #8fb319(0, 0, 255);
 }
 .nav-mobile_menu {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  background-color: #8fb319;
   display: none;
-  position: relative;
-  top: -40px;
+  position: fixed;
+  top: -15px;
   left: 0px;
-  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 100%;
 }
 .nav-mobile_menu li {
-  padding: 10px;
-  width: 60%;
+  padding: 20px;
+  margin-left: -35px;
 }
-.nav-link4{
-  color: #ffffff;
-  text-decoration: none;
-  margin-left: 10%;
-  margin-bottom: 5vh;
-}
-.nav-link4:hover{
-  color: blue;
-  transition: 0.4s;
+.first-li{
+  margin-top: 60px;
 }
 .topmobile{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
 }
 .nav-mobile_menu li a {
   color: #ffffff;
@@ -156,15 +154,52 @@ nav {
   margin-left: 20px;
 }
 .nav-mobile_menu li a:hover{
-  color: blue;
+  color: #3e3e3e;
   transition: 0.4s;
 }
-#menu-toggle {
-  display: none;
+.nousrejoindrebis{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-#menu-toggle:checked ~ .topmobile .nav-mobile_menu {
+.contacteznousbis {
+  color: white;
+  background-color: #3e3e3e;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.libis{
+  margin-top: 40px;
+  background-color: #3e3e3e;
+  margin-bottom: 10px;
+  width: 95%;
+  height: 8px;
+  border-radius: 5px;
+}
+.libis2{
+  background-color: #3e3e3e;
+  width: 95%;
+  border-radius: 5px;
+  height: 8px;
+}
+.menu-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
   display: block;
+}
+.close-toggle{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  display: none;
 }
 
 @media screen and (min-width: 1100px) {
@@ -174,6 +209,9 @@ nav {
   .navmobile {
       display: none;
   }
+  .nousrejoindrebis{
+    display: none;
+  }
 }
 @media screen and (max-width: 1100px) {
   .nav1 {
@@ -182,18 +220,16 @@ nav {
   .nav2 {
         display: none;
   }
-  .header1{
-      opacity: 0;
-      top: 1000px;
+  .liste-header{
+    display: none;
   }
-  .header2{
-      display: none;
+  .header2-droite{
+    display: none;
   }
   .header3{
-    font-size: 0.70em;
-    position: fixed;
+    font-size: 1em;
     width: 100%;
-    top: 5.5%;
     z-index: 10;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 }
