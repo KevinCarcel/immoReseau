@@ -109,7 +109,7 @@ nav {
   position: relative;
 }
 
-.menu-toggle {
+.menu-icon {
   display: block;
   cursor: pointer;
   font-size: 24px;
@@ -121,25 +121,36 @@ nav {
   top: -75px;
   position: absolute;
 }
-.menu-toggle:hover{
-  color: #8fb319(0, 0, 255);
+.menu-icon:hover{
+  color: rgb(0, 0, 255);
 }
 .nav-mobile_menu {
   list-style: none;
-  background-color: #8fb319;
   display: none;
-  position: fixed;
-  top: -15px;
   left: 0px;
+  position: fixed;
+  background-color: #8fb319;
   width: 100%;
   height: 100%;
-}
-.nav-mobile_menu li {
-  padding: 20px;
-  margin-left: -35px;
+  top: -16px;
 }
 .first-li{
   margin-top: 60px;
+}
+.nav-mobile_menu li {
+  padding: 10px;
+  padding: 20px;
+  margin-left: -35px;
+}
+.nav-link4{
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 10%;
+  margin-bottom: 5vh;
+}
+.nav-link4:hover{
+  color: #3e3e3e;
+  transition: 0.4s;
 }
 .topmobile{
   display: flex;
@@ -153,17 +164,27 @@ nav {
   text-decoration: none;
   margin-left: 20px;
 }
-.nav-mobile_menu li a:hover{
+.link-header2:hover{
   color: #3e3e3e;
   transition: 0.4s;
 }
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked ~ .topmobile .nav-mobile_menu {
+  display: block;
+}
+
 .nousrejoindrebis{
   color: white;
   text-decoration: none;
   list-style: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-
+.nousrejoindrebis:hover,.contacteznousbis:hover{
+  color: #8fb319;
+}
 .contacteznousbis {
   color: white;
   background-color: #3e3e3e;
@@ -175,31 +196,15 @@ nav {
   margin-top: 40px;
   background-color: #3e3e3e;
   margin-bottom: 10px;
-  width: 95%;
+  width: 93%;
   height: 8px;
   border-radius: 5px;
 }
 .libis2{
   background-color: #3e3e3e;
-  width: 95%;
+  width: 93%;
   border-radius: 5px;
   height: 8px;
-}
-.menu-toggle {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 24px;
-  cursor: pointer;
-  display: block;
-}
-.close-toggle{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  font-size: 24px;
-  cursor: pointer;
-  display: none;
 }
 
 @media screen and (min-width: 1100px) {
@@ -209,9 +214,6 @@ nav {
   .navmobile {
       display: none;
   }
-  .nousrejoindrebis{
-    display: none;
-  }
 }
 @media screen and (max-width: 1100px) {
   .nav1 {
@@ -220,16 +222,14 @@ nav {
   .nav2 {
         display: none;
   }
-  .liste-header{
-    display: none;
-  }
-  .header2-droite{
-    display: none;
-  }
   .header3{
     font-size: 1em;
+    position: fixed;
     width: 100%;
-    z-index: 10;
+    z-index: 1000;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .liste-header,.header2-droite{
+    display: none;
   }
 }
