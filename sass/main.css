@@ -744,6 +744,19 @@ body {
   background-color: greenyellow;
 }
 
+.lesengagements {
+  text-align: center;
+}
+
+.txt-lesengagements {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#engagement {
+  background-color: rgb(240, 240, 240);
+}
+
 #img1 {
   width: 370px;
   height: 252px;
