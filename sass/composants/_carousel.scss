@@ -82,3 +82,33 @@ main {
 #slider:hover #suivant {
   opacity: 1;
 }
+@media screen and (max-width: 1430px) {
+  .containerText{
+    font-size: 0.9em;
+    position: absolute;
+    top: 40%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .containerText{
+    font-size: 0.6em;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+  }
+  .containerSlider{
+    width: 100%;
+    height: 350px;
+ }
+ #slide{
+  width: 100%;
+  height: 650px;
+ }
+}
+@media screen and (max-width: 900px) {
+  .containerText{
+    font-size: 0.5em;
+    position: absolute;
+    right: 10%;
+  }
+}

@@ -4,9 +4,9 @@ body {
 
 #formulaire{
   background-color: white;
-  width: 900px;
+  width: 85%;
   margin: auto;
-  margin-top: 100px;
+  // margin-top: 100px;
   margin-bottom: 100px;
   border-radius: 6px;
   height: 115px;
@@ -261,14 +261,68 @@ hr{
   font-size: 1.25em;
   border: none;
   border-radius: 5px;
-  width: 200px;
+  width: 50%;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-left: 100px;
+  margin-left: 25%;
 }
 #box1:hover,#box2:hover,#box3:hover{
   box-shadow: 1px 3px 3px 1px rgba(235, 235, 235, 0.663);
   .svr-conseil{
     color: #3e3e3e;
+  }
+}
+// RESPONSIVE
+@media screen and (max-width: 1520px){
+  .txt-conseil{
+    font-size: 0.9em;
+  }
+  .svr-conseil{
+    margin-top: 50px;
+  }
+  #titre-resp{
+    font-size: 1.2em;
+  }
+}
+@media screen and (max-width: 1430px) {
+}
+@media screen and (max-width: 1380px){
+  #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+    width: 320px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  #formulaire{
+  margin-top: 350px;
+  }
+  #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+  width: 270px;
+  }
+  .bloc-txt{
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .box-conseil{
+    height: 750px;
+  }
+}
+@media screen and (max-width: 800px) {
+  #img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9,#img10{
+  width: 350px;
+}
+  .slider-container{
+    margin-left: 50px;
+  }
+  .navigation div{
+  margin-top: 35px;
+  }
+  #annonce-resp{
+    font-size: 2em;
+  }
+  .full-box{
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
   }
 }
